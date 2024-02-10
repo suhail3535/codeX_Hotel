@@ -1,0 +1,36 @@
+nav {
+    /* border: 1px solid greenyellow; */
+    width: 90%;
+    height: 40px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+nav img {
+    height: 40px;
+    width: 50px;
+}
+.nav_link {
+    width: 476px;
+    display: flex;
+    justify-content: space-between;
+    color: #222222;
+     align-items: center;
+     margin: auto;
+}
+.login_btn_div button {
+    width: 76px;
+    background-color: #24ab70;
+    color: white;
+    border-radius: 35px;
+}
+.login_btn_div button:hover {
+    background-color: lightgreen;
+}
